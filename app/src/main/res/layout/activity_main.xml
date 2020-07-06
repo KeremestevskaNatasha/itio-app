@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/splashBackground"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<View
+			android:id="@+id/first_line"
+			android:layout_width="20dp"
+			android:layout_height="50dp"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/first_1" />
+		
+		<View
+			android:id="@+id/second_line"
+			android:layout_width="20dp"
+			android:layout_height="100dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/first_line"
+			android:background="@drawable/second_2" />
+		
+		<View
+			android:id="@+id/third_line"
+			android:layout_width="20dp"
+			android:layout_height="200dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/second_line"
+			android:background="@drawable/third_3" />
+		
+		<View
+			android:id="@+id/forth_line"
+			android:layout_width="20dp"
+			android:layout_height="150dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/third_line"
+			android:background="@drawable/forth_4" />
+		
+		<View
+			android:id="@+id/fifth_line"
+			android:layout_width="20dp"
+			android:layout_height="220dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/forth_line"
+			android:background="@drawable/first_1" />
+		
+		
+		<View
+			android:id="@+id/sixth_line"
+			android:layout_width="20dp"
+			android:layout_height="120dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/fifth_line"
+			android:background="@drawable/second_2" />
+		
+		<View
+			android:id="@+id/seventh_line"
+			android:layout_width="20dp"
+			android:layout_height="70dp"
+			android:layout_marginEnd="8dp"
+			android:layout_toEndOf="@+id/sixth_line"
+			android:background="@drawable/third_3" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView
+			android:id="@+id/logo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:text="@string/itio"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="150sp" />
+	
+	
+	</RelativeLayout>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom">
+			
+			<TextView
+				android:id="@+id/slogan"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_marginBottom="50dp"
+				android:text="Traveling Hotels Overview"
+				android:textColor="@color/colorAccent"
+				android:textSize="25sp" />
+		
+		
+		</RelativeLayout>
+	</LinearLayout>
+
+</LinearLayout>
